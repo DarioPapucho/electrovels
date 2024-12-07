@@ -1,0 +1,39 @@
+name: electrovels
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.7
+  get_it: ^8.0.2
+  intl: ^0.20.0
+  floor: ^1.5.0
+  retrofit: ^4.4.1
+  flutter_hooks: ^0.20.5
+  dio: ^5.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  retrofit_generator: ^9.1.5
+  floor_generator: ^1.5.0
+  build_runner:   ^2.4.13
+
+flutter:
+
+
+  uses-material-design: true

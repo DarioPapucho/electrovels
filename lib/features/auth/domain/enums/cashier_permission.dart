@@ -1,0 +1,1 @@
+enum CashierPermission { admin }
